@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:#A084DC;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login {
+  background-color: #9376E0;
+  padding: 40px;
+  border-radius: 50px;
+  width: 400px;
+  background: linear-gradient(135deg, #A084DC 0%, #5151E5 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.41);
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #000000;
+}
+
+.roket {
+  width: 52px;
+  height: 521px;
+  left: 839px;
+  top: 30px;
+  position: absolute ;
+}
+
+::placeholder{
+  width: 398px;
+  height: 50px;
+  background: #FFFFFF;
+  border-radius: 1px;
+  padding-left: 15px;
+}
+
+h4 {
+  font-family: 'Poppins';
+font-style: italic;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+width: 262px;
+margin-left: 45px;
+margin-bottom: 51px;
+
+color: #000000;
+}
